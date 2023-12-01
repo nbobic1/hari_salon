@@ -6,10 +6,10 @@ export default function Home() {
   const [coun, setCoun] = useState(0);
   console.log(coun)
   return (
-    <div>
+    <div className='bg-neutral-100 w-full h-full'>
       dasfadfa
       <br></br>
-      <button onClick={()=>{
+      <button className='bg-white p-3 shadow-a rounded-md' onClick={()=>{
         setCoun(ar=>ar+1);
       }}>sdfsf</button>
       <br></br>
