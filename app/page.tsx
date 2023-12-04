@@ -1,24 +1,15 @@
-"use client"
-import Image from 'next/image'
-import { useState,memo } from 'react';
+import HairdresserSelection from "@/components/hairdresser-selection/HairdresserSelection";
+import ServiceSelection from "@/components/service-selection/ServiceSelection";
+
 
 export default function Home() {
-  const [coun, setCoun] = useState(0);
-  console.log(coun)
+  console.log('HOME')
   return (
-    <div className='bg-neutral-100 w-full h-full'>
+    <div className='bg-gray-100 w-full h-full p-5 '>
       dasfadfa
       <br></br>
-      <button className='bg-white p-3 shadow-a rounded-md' onClick={()=>{
-        setCoun(ar=>ar+1);
-      }}>sdfsf</button>
-      <br></br>
-      <Dugme click={()=>{
-        console.log('#',coun)
-      }}></Dugme>
+      <HairdresserSelection></HairdresserSelection>
+      <ServiceSelection></ServiceSelection>
     </div>
   )
 }
-const Dugme=memo(({click}:{click:any})=>{
-  return <button onClick={click}>gori</button>
-})

@@ -14,8 +14,17 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       boxShadow: {
-          'a':'0px 0px 30px 4px rgba(208,208,208,1)'
+          'a':'0 0 24px 4px rgba(208,208,208,1)'
       },
+      colors:{
+        "dark":"#333333",
+        "mid":"#f4f4f5",
+        "light":"#ffffff",
+      },
+      borderRadius:{
+        'DEFAULT':'12px',
+        "sm":"6px",
+      }
     },
   },
   plugins: [],
