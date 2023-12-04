@@ -8,8 +8,8 @@ return (
                 date.setDate(date.getDate()+arg);
                 return date.getDate();
             }).map(item=>
-                <div key={item} className="bg-mid rounded-sm shadow-a p-3">
-                    {item}
+                <div key={item} className="bg-mid rounded-sm shadow-a p-3 text-4xl text-center w-24 h-24 align-middle flex justify-center">
+                    <div className="flex max-h-2">{item}</div>
                 </div>
             )
           }   
