@@ -1,8 +1,6 @@
 "use client"
 import { Services } from "@/content/Content";
 import { useState } from "react";
-import Image from "../Image";
-import { serverHooks } from "next/dist/server/app-render/entry-base";
 
 const ServiceSelection =({})=>{
 const [gender, setGender] = useState('');

@@ -1,3 +1,4 @@
+import AppointmentSelection from "@/components/appointment-selection/AppointmentSelection";
 import HairdresserSelection from "@/components/hairdresser-selection/HairdresserSelection";
 import ServiceSelection from "@/components/service-selection/ServiceSelection";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <br></br>
       <HairdresserSelection></HairdresserSelection>
       <ServiceSelection></ServiceSelection>
+      <AppointmentSelection></AppointmentSelection>
     </div>
   )
 }
